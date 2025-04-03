@@ -5,7 +5,7 @@ const CallApi = () => {
 
   const callApi = async () => {
     try {
-      const response = await fetch("https://api-irc2.onrender.com/api/set-cookie", {
+      const response = await fetch("http://localhost:3000/api/set-cookie", {
         method: "GET",
         credentials: "include",
       });
